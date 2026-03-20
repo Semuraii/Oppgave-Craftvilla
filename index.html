@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+  <meta charset="UTF-8">
+  <title>CRAFTSVILLA</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h2>CRAFTSVILLA</h2>
+  <nav>
+    <a href="#home">Hjem</a>
+    <a href="#booking">Booking</a>
+    <a href="#gallery">Galleri</a>
+    <a href="#feedback">Tilbakemelding</a>
+  </nav>
+</header>
+
+<!-- HERO -->
+<section id="home" class="hero">
+  <div>
+    <h1>Slipp løs kreativiteten din</h1>
+    <p>Koble til. Slapp av.</p>
+    <a href="#booking" class="btn">Bestill verkstedet ditt</a>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section class="section">
+  <h2>Om CRAFTSVILLA</h2>
+  <p>
+    Hos CRAFTSVILLA bringer vi mennesker sammen gjennom kreativitet.
+    Enten det er familie, venner eller kolleger – vi skaper gode opplevelser!
+  </p>
+</section>
+
+<!-- SERVICES -->
+<section class="section">
+  <h2>Våre workshops</h2>
+
+  <div class="cards">
+    <div class="card">
+      <h3>Mosaikk Kunst</h3>
+      <p>400 kr</p>
+      <p>Fargerike steiner og kreativ utfoldelse</p>
+    </div>
+
+    <div class="card">
+      <h3>Akvarellmaling</h3>
+      <p>200 kr</p>
+      <p>Rolig og avslappende maling</p>
+    </div>
+
+    <div class="card">
+      <h3>Lerretsmaling</h3>
+      <p>300 kr</p>
+      <p>Skap ditt eget kunstverk</p>
+    </div>
+  </div>
+</section>
+
+<!-- BOOKING -->
+<section id="booking" class="section">
+  <h2>Bestill workshop</h2>
+
+  <form>
+    <input type="text" placeholder="Navn" required>
+    <input type="email" placeholder="E-post" required>
+    <input type="tel" placeholder="Telefonnummer">
+
+    <select required>
+      <option value="">Velg workshop</option>
+      <option>Mosaikk Kunst</option>
+      <option>Akvarellmaling</option>
+      <option>Lerretsmaling</option>
+    </select>
+
+    <input type="date" required>
+    <input type="time" required>
+    <input type="number" placeholder="Antall deltakere">
+
+    <textarea placeholder="Spesielle ønsker"></textarea>
+
+    <button type="submit">Send bestilling</button>
+  </form>
+</section>
+
+<!-- GALLERY -->
+<section id="gallery" class="section">
+  <h2>Galleri</h2>
+
+  <div class="gallery">
+    <img src="images/art1.jpg" alt="">
+    <img src="images/art2.jpg" alt="">
+    <img src="images/art3.jpg" alt="">
+  </div>
+</section>
+
+<!-- FEEDBACK -->
+<section id="feedback" class="section">
+  <h2>Vi vil gjerne høre fra deg!</h2>
+
+  <form>
+    <input type="text" placeholder="Navn">
+    <input type="email" placeholder="E-post">
+
+    <select>
+      <option>Workshop deltatt</option>
+      <option>Mosaikk Kunst</option>
+      <option>Akvarellmaling</option>
+      <option>Lerretsmaling</option>
+    </select>
+
+    <textarea placeholder="Hva likte du best?"></textarea>
+    <textarea placeholder="Hvordan kan vi forbedre?"></textarea>
+
+    <p>Anbefaler du oss?</p>
+    <label><input type="radio" name="rec"> Ja</label>
+    <label><input type="radio" name="rec"> Nei</label>
+    <label><input type="radio" name="rec"> Kanskje</label>
+
+    <br><br>
+
+    <label>
+      <input type="checkbox"> Jeg gir tillatelse til å dele tilbakemeldingen
+    </label>
+
+    <br><br>
+
+    <button type="submit">Send tilbakemelding</button>
+  </form>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <p>Kontakt oss | CRAFTSVILLA</p>
+</footer>
+
+</body>
+</html>
