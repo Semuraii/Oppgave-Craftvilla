@@ -80,6 +80,18 @@ nav a {
   transform: translateY(-5px);
 }
 
+.card img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.price {
+  font-weight: bold;
+  color: #ff7a59;
+  margin: 10px 0;
+}
+
 form {
   max-width: 500px;
   margin: auto;
